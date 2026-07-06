@@ -3,6 +3,10 @@
 .fastembed_cache/
 **/.fastembed_cache/
 
+# juicer skill runtime state (topic-scout / mention-scout) — holds live API keys.
+topic-scout-data/
+mention-scout-data/
+
 # Local Kompress ONNX export artifacts (scripts/export_kompress_v2_onnx.py).
 # Hundreds of MB each — published to HuggingFace, never committed.
 /onnx/
