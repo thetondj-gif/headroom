@@ -253,3 +253,7 @@ uv.lock
 /headroom/_core.*.so
 /headroom/_core.so
 .tokensave
+
+# claude-flow / ruflo plugin runtime state (regenerated per session, not project code)
+.claude-flow/
+.swarm/
